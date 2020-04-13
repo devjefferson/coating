@@ -15,11 +15,11 @@ Documentação https://github.com/devjefferson/coating.git
 ## Comando para Instalar
 
 ```bash
-npm install -g coatingcli
+>npm install -g coatingcli
 ```
 
 ```bash
-yarn add global coatingcli
+>yarn add global coatingcli
 ```
 
 # Componentes :
@@ -27,7 +27,7 @@ yarn add global coatingcli
 ## Componentes Simples
 Chamada de componente Simples.
 ```bash
-coating componente Exemple
+>coating componente Exemple
 ```
 Criando uma pasta src/component/. com 2 arquivos sendo index.js e styles.js
 
@@ -68,7 +68,7 @@ O arquivo styles.js contém todo o codigo de estilo dependendo dos modulos insta
 ## Componentes com Graphql Ultilizado com Gatsby
 Chamada de componente com Graphql.
 ```bash
-coating componente:graphql Exemple
+>coating componente:graphql Exemple
 ```
 Criando uma pasta src/component/. com 2 arquivos sendo index.js e styles.js
 
@@ -110,7 +110,7 @@ O arquivo styles.js contém todo o codigo de estilo styled-component e React:
 ## Pagina Simples
 Chamada de Pagina Simples.
 ```bash
-coating pagina Exemple
+>coating pagina Exemple
 ```
 Criando uma pasta src/pages/. com 2 arquivos sendo index.js e styles.js
 
@@ -151,7 +151,7 @@ O arquivo styles.js contém todo o codigo de estilo dependendo dos modulos insta
 ## Pagina com Graphql Ultilizado com Gatsby
 Chamada de pagina com Graphql.
 ```bash
-coating pagina:graphql Exemple
+>coating pagina:graphql Exemple
 ```
 Criando uma pasta src/component/. com 2 arquivos sendo index.js e styles.js
 
