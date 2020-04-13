@@ -1,9 +1,9 @@
 <p align="center">
   <img width="250" src="/coating-logo.png">
 </p>
-<h1 align="center"> Yargs </h1>
+<h1 align="center"> CoatingCLI </h1>
 <p align="center">
-  <b >Yargs be a node.js library fer hearties tryin' ter parse optstrings</b>
+  <b >Coating</b>
 </p>
 
 <br>
