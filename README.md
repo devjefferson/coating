@@ -11,16 +11,16 @@ Check out the documentation at https://github.com/infinitered/gluegun/tree/maste
 To package your CLI up for NPM, do this:
 
 
-## Componentes :
+# Componentes :
 
-### Simples componentes
+## Simples componentes
 Chamada de componente Simples.
 ```bash
 coating componente Exemple
 ```
 Criando uma pasta src/component/. com 2 arquivos sendo index.js e styles.js
 
-# Index.js
+### Index.js
 ````javascript
 import React from 'react';
 
@@ -36,7 +36,7 @@ export default function Exemple(){
 ````
 O arquivo index.js contém todo o codigo do componentes:
 
-# React Styles.js
+### React Styles.js
 ````javascript
 import styled from 'styled-components';
 
@@ -44,7 +44,7 @@ export const Container = styled.div`
   
 `;
 ````
-# React-Native Styles.js
+### React-Native Styles.js
 ````javascript
 import styled from 'styled-components/native';
 
@@ -54,14 +54,14 @@ export const Container = styled.View`
 ````
 O arquivo styles.js contém todo o codigo de estilo dependendo dos modulos instalado React ou React-native:
 
-### Componentes com Graphql Ultilizado com Gatsby
+## Componentes com Graphql Ultilizado com Gatsby
 Chamada de componente com Graphql.
 ```bash
 coating componente:graphql Exemple
 ```
 Criando uma pasta src/component/. com 2 arquivos sendo index.js e styles.js
 
-# Index.js
+### Index.js
 ````javascript
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
@@ -82,7 +82,7 @@ export default function <%= props.name %>(){
 ````
 O arquivo index.js contém todo o codigo do componentes:
 
-# React Styles.js
+### React Styles.js
 ````javascript
 import styled from 'styled-components';
 
