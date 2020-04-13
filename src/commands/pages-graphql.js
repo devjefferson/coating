@@ -1,17 +1,17 @@
 module.exports =  {
-  name: 'pagina',
+  name: 'pagina:graphql',
   description: "Pagina Gerada em src/pages",
   run: async toolbox =>{
     const {
       parameters,
-      criarComponente
+      criarComponenteGraphql
     } = toolbox
 
     const name = parameters.first
 
    
 
-    await criarComponente('src/pages', name)
+    await criarComponenteGraphql('src/pages', name)
     
   }
   

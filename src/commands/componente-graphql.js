@@ -1,17 +1,17 @@
 module.exports =  {
-  name: 'componente',
+  name: 'componente:graphql',
   description: "Componente Gerado em src/componente",
   run: async toolbox =>{
     const {
       parameters,
-      criarComponente
+      criarComponenteGraphql
     } = toolbox
 
     const name = parameters.first
 
    
 
-    await criarComponente('src/components', name)
+    await criarComponenteGraphql('src/components', name)
     
   }
 

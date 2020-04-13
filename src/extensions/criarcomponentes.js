@@ -9,6 +9,8 @@ module.exports = (toolbox)=>{
     return !!packege.dependencies['react-native']
   }
 
+  
+
   async function criarComponente(folder, name){
     if(!name){
       error('Porfavor informe um nome')

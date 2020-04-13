@@ -1,8 +1,7 @@
 {
-  "name": "coating",
-  "version": "0.0.1",
+  "name": "coatingcli",
+  "version": "0.0.4",
   "description": "coating CLI",
-  "private": true,
   "bin": {
     "coating": "bin/coating"
   },
